@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header a {
+    text-decoration: none;
+    color: #707070;
+    margin-left: 20px;
+    font-weight: 300;
+}
