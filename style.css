@@ -25,3 +25,58 @@ header a {
     margin-left: 20px;
     font-weight: 300;
 }
+
+.container {
+    max-width: 600px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column; /* Cambiar la dirección a columna */
+    align-items: center; /* Centrar los elementos */
+}
+
+.search-box input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 1rem;
+    margin-bottom: 10px; /* Añadir margen inferior al campo de entrada */
+    width: 600px; /* Ajusta el ancho */
+}
+
+.search-box button {
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.753);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 10px; /* Añadir margen inferior a los botones */
+}
+
+.button-group {
+    display: flex;
+}
+
+.button-group button {
+    margin-right: 10px;
+}
+
